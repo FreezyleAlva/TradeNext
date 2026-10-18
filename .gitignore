@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+public/icons/
+src/app/tokens.css
+src/app/icon.png
+src/app/apple-icon.png
+next-env.d.ts
+*.tsbuildinfo
+public/data/
+public/favicon.ico

@@ -1,0 +1,243 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+:root {
+  --layout-max: 1440px;
+  --layout-nav: 232px;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  transition: none !important;
+  animation: none !important;
+}
+
+html {
+  scroll-behavior: auto;
+  scroll-padding-top: var(--spacing-s5);
+}
+
+body {
+  background-color: var(--color-surface-0);
+  color: var(--color-ink-1);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-cyan-3);
+  outline-offset: 2px;
+}
+
+a {
+  color: var(--color-cyan-3);
+  text-underline-offset: 3px;
+}
+
+.icon {
+  display: inline-block;
+  flex: none;
+  background-color: currentColor;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+
+.shell {
+  max-width: var(--layout-max);
+  margin-inline: auto;
+}
+
+@media (min-width: 64rem) {
+  .shell {
+    display: grid;
+    grid-template-columns: var(--layout-nav) minmax(0, 1fr);
+    gap: var(--spacing-s6);
+  }
+  .side-nav {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+}
+
+.main-col {
+  padding: var(--spacing-s5) var(--spacing-s4);
+}
+
+@media (min-width: 64rem) {
+  .main-col {
+    padding: var(--spacing-s6) var(--spacing-s6) var(--spacing-s6) 0;
+  }
+}
+
+.section + .section {
+  margin-top: var(--spacing-s7);
+}
+
+.stat-grid {
+  grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr));
+}
+
+.stat-grid-lg {
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+}
+
+.grid-2 {
+  display: grid;
+  gap: var(--spacing-s4);
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 64rem) {
+  .grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.kv {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 40rem) {
+  .kv {
+    grid-template-columns: max-content minmax(0, 1fr);
+  }
+}
+
+.data-table {
+  border-collapse: collapse;
+}
+
+.data-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: var(--color-surface-3);
+}
+
+.data-table tbody tr + tr {
+  border-top: 1px solid var(--color-surface-3);
+}
+
+.table-scroll {
+  max-height: 34rem;
+  overflow: auto;
+}
+
+.heatmap {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+.heat-cell {
+  border-radius: var(--radius-sm);
+}
+
+.heat-chosen,
+.legend-chosen {
+  outline: 2px solid var(--color-ink-1);
+  outline-offset: -2px;
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: var(--spacing-s3);
+  height: var(--spacing-s3);
+  border-radius: 2px;
+}
+
+.chart-box {
+  overflow: hidden;
+}
+
+.chart-box svg text {
+  font-family: var(--font-sans);
+}
+
+.tooltip {
+  min-width: 11rem;
+}
+
+.tooltip-right {
+  left: calc(var(--tx) + var(--spacing-s3));
+}
+
+.tooltip-left {
+  right: calc(100% - var(--tx) + var(--spacing-s3));
+}
+
+.tap {
+  min-height: 2.25rem;
+}
+
+@media (pointer: coarse) {
+  .tap {
+    min-height: 2.75rem;
+  }
+}
+
+.mobile-nav {
+  scrollbar-width: none;
+}
+
+.terminal-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 80rem) {
+  .terminal-grid {
+    grid-template-columns: minmax(0, 1fr) 17rem;
+  }
+}
+
+.side-trades {
+  max-height: 27rem;
+}
+
+.ticker-input {
+  width: 5.5rem;
+}
+
+.lab-grid {
+  display: grid;
+  gap: var(--spacing-s3);
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 80rem) {
+  .lab-grid {
+    grid-template-columns: 19rem minmax(0, 1fr);
+  }
+}
+
+.field-grid {
+  display: grid;
+  gap: var(--spacing-s2);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.opt-progress {
+  width: 8rem;
+  height: var(--spacing-s2);
+  accent-color: var(--color-cyan-2);
+}
+
+.terminal-shell {
+  max-width: var(--layout-max);
+  margin-inline: auto;
+  padding: var(--spacing-s4);
+}
+
+@media (min-width: 64rem) {
+  .terminal-shell {
+    padding: var(--spacing-s5) var(--spacing-s6);
+  }
+}

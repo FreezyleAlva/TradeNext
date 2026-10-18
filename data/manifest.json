@@ -1,0 +1,721 @@
+{
+  "source": "Yahoo Finance via yfinance (auto_adjust=False, actions=True)",
+  "downloaded_on": "2026-10-18",
+  "start": "2015-01-01",
+  "files": {
+    "AADI": {
+      "symbol": "AADI.JK",
+      "rows": 440,
+      "first": "2024-12-05",
+      "last": "2026-10-16",
+      "sha256": "9f3e34fcf9c8dc02adfda91f1e4600f4d66f1d0edce37db6c295c80299a9c8a4"
+    },
+    "ACES": {
+      "symbol": "ACES.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "4a2ec1fdebaefc54621a53b4948ad23ef701b3465c192de3daa202991b902e94"
+    },
+    "ADMR": {
+      "symbol": "ADMR.JK",
+      "rows": 1146,
+      "first": "2022-01-03",
+      "last": "2026-10-16",
+      "sha256": "e3e0c600e325608bc30edee6c92a2e4f17e134e1cba8bd37fe9dc57c737e19a7"
+    },
+    "ADRO": {
+      "symbol": "ADRO.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "63a3f387c97f8ddcebed66c1f4df88b75e8f6322550fcf9623e32f72d669ff78"
+    },
+    "AKRA": {
+      "symbol": "AKRA.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "ee223002bc28b004cf9e6102b874eadefebf65a53246c2af9dd384261322ce75"
+    },
+    "AMMN": {
+      "symbol": "AMMN.JK",
+      "rows": 782,
+      "first": "2023-07-07",
+      "last": "2026-10-16",
+      "sha256": "2da48457c14e1369cadc90efb635c1602499e900d26ea6ace8abf02690c04698"
+    },
+    "AMRT": {
+      "symbol": "AMRT.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "4b31ba3c5ad322ed052fdf0b9940b26cbda10b471c3b2f8daf0051b88757eaf9"
+    },
+    "ANTM": {
+      "symbol": "ANTM.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "8a4d655d89a1ecb05d26b50d1c2932e560ded0e6a1daa6ec9a427490a7ad6f4a"
+    },
+    "ARCI": {
+      "symbol": "ARCI.JK",
+      "rows": 1276,
+      "first": "2021-06-28",
+      "last": "2026-10-16",
+      "sha256": "e0830c9e9918c0188d833007900f60e8cd81ec9c732e2c7439a1f94a7dd2c191"
+    },
+    "ARTO": {
+      "symbol": "ARTO.JK",
+      "rows": 2640,
+      "first": "2016-01-12",
+      "last": "2026-10-16",
+      "sha256": "105ab8b1d80ceb267f170b4d918e90694784d376bece25a6615950b38f8e2b7f"
+    },
+    "ASII": {
+      "symbol": "ASII.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "4576412cb900b2ad6ba355daf1f2278e0646366e8a62818db6be1aca39893e0a"
+    },
+    "BBCA": {
+      "symbol": "BBCA.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "4c744f5308b869b06faca849a94fab4a66a6ba141885bf147b41754e92fb7287"
+    },
+    "BBNI": {
+      "symbol": "BBNI.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "5e7a649b45e65ce34392ec9e493087c7ced526e9a228b43b8aa8692d8a62585b"
+    },
+    "BBRI": {
+      "symbol": "BBRI.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "5b7f15ba528a5a1c68aa16e8a5cfa2a573e7ea11cab77efbe986faa5a497d6d8"
+    },
+    "BBTN": {
+      "symbol": "BBTN.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "f0ee65259abdfecc862382d139677dd297471e363aa6eeaf1422391859d2b343"
+    },
+    "BBYB": {
+      "symbol": "BBYB.JK",
+      "rows": 2892,
+      "first": "2015-01-13",
+      "last": "2026-10-16",
+      "sha256": "10385314627aabc9cdadf9a014193db61a993a4d36a12456a39982a60dad9b2e"
+    },
+    "BFIN": {
+      "symbol": "BFIN.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "5745b695cda6537eb1c39e85e4a1aae17e85f831c79bf6b9a4c6836cf4b7e788"
+    },
+    "BIPI": {
+      "symbol": "BIPI.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "97eeb9f4bd823813b3e4e1402aafa3c62886a5592f8ba396da771788228f3513"
+    },
+    "BKSL": {
+      "symbol": "BKSL.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "188bf2b7074f740bbea19d84d232aeed446b0b7c9b68248f0242ea5703425d69"
+    },
+    "BMRI": {
+      "symbol": "BMRI.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "9dafdba103a9143bffcd3b1646cd2e093138e7ea69199f150555c829f890c6fb"
+    },
+    "BNBR": {
+      "symbol": "BNBR.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "f33849935b2961ca5649efe7d402e8947da8d579c8a6d00a77636f11355ada71"
+    },
+    "BRIS": {
+      "symbol": "BRIS.JK",
+      "rows": 2061,
+      "first": "2018-05-09",
+      "last": "2026-10-16",
+      "sha256": "a80ed0baeb6aa204e663090556d9a84e3ea14ae3c882e9e389b9a109ab590c7d"
+    },
+    "BRMS": {
+      "symbol": "BRMS.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "06020e0868f7836ee76503b38016347ee9b79f0c8d78d8aea5f46642f55f5d45"
+    },
+    "BRPT": {
+      "symbol": "BRPT.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "cb7bbb943876760d7f0eb9850b2878949e17113b92aa17f2236a82889c93c77c"
+    },
+    "BSDE": {
+      "symbol": "BSDE.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "18c238a47b8a060e22400261d7713a42d619268d1a844217f6c38943fdf8db31"
+    },
+    "BUKA": {
+      "symbol": "BUKA.JK",
+      "rows": 1248,
+      "first": "2021-08-06",
+      "last": "2026-10-16",
+      "sha256": "57aa7cde049a0fca98199e79891c72a459bf051a86f28e2f2dd63e00c0c5e0b0"
+    },
+    "BULL": {
+      "symbol": "BULL.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "19fd5bf26473c96d104effc0dcaa6cdeaba33924e1916a77277ac56e0860fc7a"
+    },
+    "BUMI": {
+      "symbol": "BUMI.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "a3da94f5f6a9930586de99028aa03a15b86e0cdfe7352748f0f75233700a07c8"
+    },
+    "BUVA": {
+      "symbol": "BUVA.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "ca71ed2e1cac9a681ded2197f17e09f3854df44e8b7edf24b238f32febe304d3"
+    },
+    "CBDK": {
+      "symbol": "CBDK.JK",
+      "rows": 417,
+      "first": "2025-01-13",
+      "last": "2026-10-16",
+      "sha256": "9c9025d93508fb10aad4ab71ac215436811845bb282ee6ad6bd0332253aa6f2d"
+    },
+    "CMRY": {
+      "symbol": "CMRY.JK",
+      "rows": 1165,
+      "first": "2021-12-06",
+      "last": "2026-10-16",
+      "sha256": "438f6f66f5598bcc7ca4d25874b953b859e22f55f22ae6b88d8986b13c56d084"
+    },
+    "COIN": {
+      "symbol": "COIN.JK",
+      "rows": 309,
+      "first": "2025-07-09",
+      "last": "2026-10-16",
+      "sha256": "62518ea252e3c3f1e8e1d761c6b7bc072445ddf80cb3a742b21802ef66f8833a"
+    },
+    "CPIN": {
+      "symbol": "CPIN.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "f018db6be8e0ca485c317f7d000fddc2cd4b890bfb140ef25d14bf55f427aa5e"
+    },
+    "CTRA": {
+      "symbol": "CTRA.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "13151ba7cbfc35db0c9469cdd77625fafc6985481f1af81b74da4e046eb27d82"
+    },
+    "CUAN": {
+      "symbol": "CUAN.JK",
+      "rows": 854,
+      "first": "2023-03-08",
+      "last": "2026-10-16",
+      "sha256": "e2e9d73bd49d6b11dbde997541b9c39dfafd0b4f317024a5225abace1cc17763"
+    },
+    "DEWA": {
+      "symbol": "DEWA.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "e408e40624ab6aa042421b0468623eea96a4acefc94bf927f7ee82f6f44251e0"
+    },
+    "DSNG": {
+      "symbol": "DSNG.JK",
+      "rows": 2897,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "6286854e6ec1f83ff0b58116c98f0f6181be71c202ca7a807b1df1d5d2ad6d7d"
+    },
+    "ELSA": {
+      "symbol": "ELSA.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "43847058f4294240b6eb2e6c8fde56baed605ac22aab3f5cf34b7d58202fc671"
+    },
+    "EMAS": {
+      "symbol": "EMAS.JK",
+      "rows": 257,
+      "first": "2025-09-23",
+      "last": "2026-10-16",
+      "sha256": "89b2afcc7e3b44a15ca9845a56f6f817a84c3918ba103e781f35f27c179359f4"
+    },
+    "EMTK": {
+      "symbol": "EMTK.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "5da9934aab2e2cf6263637f4855ecfce083d84b4727b165a8f11d97e506f30cf"
+    },
+    "ENRG": {
+      "symbol": "ENRG.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "f7a301c79aef4d3c468294f2ccc2c7ff579f0b02abf26caf7a4ca39dfb39bbce"
+    },
+    "ERAA": {
+      "symbol": "ERAA.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "96a9b2272e1a6ec914228942468eaada0de79fe1930b2f8512d4fe3df2ddab8a"
+    },
+    "ESSA": {
+      "symbol": "ESSA.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "8a46b00dc29a5910c6140272fec1a035015f1b74a515abdcefb1ce98edb194af"
+    },
+    "EXCL": {
+      "symbol": "EXCL.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "2cd14e5dc2068383bfffd724f34696dea6553a02b0c512c07e088f83d955d5c8"
+    },
+    "GGRM": {
+      "symbol": "GGRM.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "5e8471342d8dfb57aa06b9ed1238a2032a1d960ad4b2cfe73f3f0b86ec89c41a"
+    },
+    "GOTO": {
+      "symbol": "GOTO.JK",
+      "rows": 1079,
+      "first": "2022-04-11",
+      "last": "2026-10-16",
+      "sha256": "99c4fbbbdc501801affffe4ae46d2defa961a08f59a509379e243d1e75023a13"
+    },
+    "HEAL": {
+      "symbol": "HEAL.JK",
+      "rows": 2056,
+      "first": "2018-05-17",
+      "last": "2026-10-16",
+      "sha256": "704fa9094e011bbb37348e831e39e86c65cfbb3d3bdae0caceea47d7520d44e2"
+    },
+    "HRTA": {
+      "symbol": "HRTA.JK",
+      "rows": 2290,
+      "first": "2017-06-22",
+      "last": "2026-10-16",
+      "sha256": "17486552bd1c21e7dd5ea9a3a3e38b93f690b25c2a46ebcdf62ce32e42b573a4"
+    },
+    "HRUM": {
+      "symbol": "HRUM.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "fceefc7f319a4cdf931803a0c047cc89897f2725932862dff0d7a45e7883ba24"
+    },
+    "ICBP": {
+      "symbol": "ICBP.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "c30c733bc4740945cdaf5ddcf4f5c6f80aa5c86d6ce4053a806c66cfa24a13eb"
+    },
+    "IMPC": {
+      "symbol": "IMPC.JK",
+      "rows": 2891,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "f13d7d8148d76a207ada4275a307446ae716aca78e3cca44cc0041d28e7fb89a"
+    },
+    "INCO": {
+      "symbol": "INCO.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "d3df8d79626b98770b1c71ed689f0dfc4242b93c4178276efd0e523a7e7f751e"
+    },
+    "INDF": {
+      "symbol": "INDF.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "cbad5555e23e4c1222c14c373e216c3d87bd691c6cf27316997ad6808c633f61"
+    },
+    "INDY": {
+      "symbol": "INDY.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "93b3db6687806cc99aeeb6e3a10a63fd263f7edde36c52011752c452a54cb543"
+    },
+    "INET": {
+      "symbol": "INET.JK",
+      "rows": 772,
+      "first": "2023-07-24",
+      "last": "2026-10-16",
+      "sha256": "f8f6869f3a010da046a4fc3154b69b8cab585b24131ae23e30539ae05c60e9ea"
+    },
+    "INKP": {
+      "symbol": "INKP.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "b97d298286b709aebe60dbe3e2e190c337c059cbead66eb9ee37acb1aacde125"
+    },
+    "ISAT": {
+      "symbol": "ISAT.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "2cc5ed99570c85d06e31f24452c519547c3223fe392c085669290ac7a2d8d327"
+    },
+    "ITMG": {
+      "symbol": "ITMG.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "148fc75a688a0806ec76a5c21c8d616903b953baeb8168709503a0e0586f7471"
+    },
+    "JPFA": {
+      "symbol": "JPFA.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "2ac9ba2bcf759f9cb617218753fa598dad49d787f5f83f264171c895965fd88c"
+    },
+    "JSMR": {
+      "symbol": "JSMR.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "e70ef99ecc5f7e0a3962c0a857fbd456edbcb0b93929846656a3769e0115b793"
+    },
+    "KIJA": {
+      "symbol": "KIJA.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "6df7b3497ab6d92157add3fe8649e6dbf563fcc22c3077493f7665a809d7bd3a"
+    },
+    "KLBF": {
+      "symbol": "KLBF.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "5cfe7179c4d710504f6aca354124ead966019632c9802835be69d7f17ba01fc9"
+    },
+    "KPIG": {
+      "symbol": "KPIG.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "5d2f9ee22a3a62a50853f767674481dcb11fedaed06110271f87530861c39b68"
+    },
+    "LSIP": {
+      "symbol": "LSIP.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "0dcafbf54ea09f79b1434a1a4302675dc794e3d46bcc813b7975a24dfa7300b5"
+    },
+    "MAPA": {
+      "symbol": "MAPA.JK",
+      "rows": 2021,
+      "first": "2018-07-05",
+      "last": "2026-10-16",
+      "sha256": "ce5ec6567dbe752bd82ad9e2aec472239da548f3aa593c50d1837363581806a7"
+    },
+    "MAPI": {
+      "symbol": "MAPI.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "2f4e3828a584c1c407b2aa16d9a90af764adfeef6ac34ecb3116de3d87a52bc8"
+    },
+    "MBMA": {
+      "symbol": "MBMA.JK",
+      "rows": 828,
+      "first": "2023-04-18",
+      "last": "2026-10-16",
+      "sha256": "b8df1752796da399d3af29d66f4107481c5fb78ff36ff4424b1e0e568d2c413f"
+    },
+    "MDKA": {
+      "symbol": "MDKA.JK",
+      "rows": 2776,
+      "first": "2015-06-19",
+      "last": "2026-10-16",
+      "sha256": "94c210f62d353038a5a2268fb044462627281408d2c06d6547a3c02659c63aeb"
+    },
+    "MEDC": {
+      "symbol": "MEDC.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "3cab9c3e5fcb0d12f37765aab695919f96d15ff24a2423c3d2a7bab88dd301d9"
+    },
+    "MIKA": {
+      "symbol": "MIKA.JK",
+      "rows": 2834,
+      "first": "2015-03-24",
+      "last": "2026-10-16",
+      "sha256": "6e5df259b6c6b2c22bb0ecacace02d32598496a63f8dc57a764ada0cabe918b0"
+    },
+    "MINA": {
+      "symbol": "MINA.JK",
+      "rows": 2325,
+      "first": "2017-05-02",
+      "last": "2026-10-16",
+      "sha256": "e802303320d0ea734bf69371469f1eed702e7361f74c4519b234d42d7820a5b6"
+    },
+    "MYOR": {
+      "symbol": "MYOR.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "4c02dc974f0ecaf6aacc9fa5c82f019744042553a52a28a0da5677787582df91"
+    },
+    "NCKL": {
+      "symbol": "NCKL.JK",
+      "rows": 832,
+      "first": "2023-04-12",
+      "last": "2026-10-16",
+      "sha256": "01b386df3c44f9f826568ef1f7c4b655433b619e8f8432498808458437b64141"
+    },
+    "PANI": {
+      "symbol": "PANI.JK",
+      "rows": 1968,
+      "first": "2018-09-18",
+      "last": "2026-10-16",
+      "sha256": "129e53f60596db90ad24bbb971f141ef3cd6fccdfa5b23b91f8467a3a8e8841e"
+    },
+    "PGAS": {
+      "symbol": "PGAS.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "62a2fb3fe54d5b56feb2f9f3d168e490fd85979ed56f2bb66465bb00f1babd32"
+    },
+    "PGEO": {
+      "symbol": "PGEO.JK",
+      "rows": 862,
+      "first": "2023-02-24",
+      "last": "2026-10-16",
+      "sha256": "460916758970410864d64baf7f3d48ebb15532f466fccfcd1a3ac9ccf53e62b9"
+    },
+    "PNLF": {
+      "symbol": "PNLF.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "49b35452cc1718401909661e9ec6c73d0fc17278a73ad7254532941041d13c10"
+    },
+    "PSAB": {
+      "symbol": "PSAB.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "d91af9a2354f0f50c441af13bc58405eacd1ed0e744b089b1665a00bcf35ce5c"
+    },
+    "PTBA": {
+      "symbol": "PTBA.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "69bace16b5ebbd828278e3f5b0402e206404653e771df07d44685fd10a5bb0cd"
+    },
+    "PTRO": {
+      "symbol": "PTRO.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "75e8c47e56b052eb7402415e2f635dcb291e32db5ea7fa6f7d113ea8a976a1b2"
+    },
+    "PWON": {
+      "symbol": "PWON.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "51fcafab7df8f23e97ca317f281398459d7bd6c441b2bd56993f90a5908dd4a1"
+    },
+    "RAJA": {
+      "symbol": "RAJA.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "86cb68c25154d33214969f4443d7849b65e6a59d71ac5ee8c27a992abb2d0f9d"
+    },
+    "RATU": {
+      "symbol": "RATU.JK",
+      "rows": 420,
+      "first": "2025-01-08",
+      "last": "2026-10-16",
+      "sha256": "d97c60b7ba4e3d00d8fc91000a783953cbe4c6047fb252bb9eb0bd208cd93f04"
+    },
+    "RMKE": {
+      "symbol": "RMKE.JK",
+      "rows": 1164,
+      "first": "2021-12-07",
+      "last": "2026-10-16",
+      "sha256": "171450550c13268bbc24a42e786309d44c3fbefaa6ca1d27b374472e0e760594"
+    },
+    "SCMA": {
+      "symbol": "SCMA.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "612decbbb55834a1f0d46304eab58dd592400ee38f985fce2e6a5be63e95c1f4"
+    },
+    "SGER": {
+      "symbol": "SGER.JK",
+      "rows": 1487,
+      "first": "2020-08-10",
+      "last": "2026-10-16",
+      "sha256": "a2a4b6c37bfe38236671db8ea00428d9e41a502d4ac410f19e94493523e05aae"
+    },
+    "SMGR": {
+      "symbol": "SMGR.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "7c2e82ef688533d635e5ab53a65631ef9e0bf5d7288028b25a356210ca7c3b69"
+    },
+    "SMIL": {
+      "symbol": "SMIL.JK",
+      "rows": 816,
+      "first": "2023-05-12",
+      "last": "2026-10-16",
+      "sha256": "5a4f39d163def3975b862d9893564b628b3bd6a3fb30e74d693513fe3db0f72e"
+    },
+    "SMRA": {
+      "symbol": "SMRA.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "1f366121166afc4ec721b68f94bd512362e59b2c153a8fc917019ace94c3989f"
+    },
+    "SSIA": {
+      "symbol": "SSIA.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "9675df77ad8df97b0a0970084e9d8a929cf1766fc2a304204254015c3f721675"
+    },
+    "TAPG": {
+      "symbol": "TAPG.JK",
+      "rows": 1326,
+      "first": "2021-04-12",
+      "last": "2026-10-16",
+      "sha256": "8d65535effb8aa4d2856dfec9801ed4f4a740e886b52465953bc5a9d6107feb9"
+    },
+    "TINS": {
+      "symbol": "TINS.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "e59cce7603286cf4a93737bf82945520d95579b70826dc51b1515a0f30d73a08"
+    },
+    "TLKM": {
+      "symbol": "TLKM.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "2f5e5f7f0e8e254eb588d44276f8afcf77080530945a3ecb7a62fc350e10825e"
+    },
+    "TOBA": {
+      "symbol": "TOBA.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "411acbe4685ea9121b854c10d82e46c49f3862f70372e8169a81d1d97ea0de5e"
+    },
+    "TOWR": {
+      "symbol": "TOWR.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "998002b3821101201bf7f464dffe7c759a9322ecf0f13733780beb26fa74c171"
+    },
+    "TPIA": {
+      "symbol": "TPIA.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "d0c94084552a882608a54358be359fa3365baf11fa68c811003f328998da99eb"
+    },
+    "UNTR": {
+      "symbol": "UNTR.JK",
+      "rows": 2898,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "82a7864dd7e8f2ec12d3e54c31f4c187c6c768faeba4920671eb4ed55e1f5ff6"
+    },
+    "UNVR": {
+      "symbol": "UNVR.JK",
+      "rows": 2899,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "ee149cb748616d09253d6022890ab14cde3c8bde8426ae8b267407c56b1d83e8"
+    },
+    "WIFI": {
+      "symbol": "WIFI.JK",
+      "rows": 1394,
+      "first": "2020-12-30",
+      "last": "2026-10-16",
+      "sha256": "700908dc73d1d457f0366471a53986faab3bb515668770ffcb0ffc4567d6c296"
+    },
+    "WIRG": {
+      "symbol": "WIRG.JK",
+      "rows": 1084,
+      "first": "2022-04-04",
+      "last": "2026-10-16",
+      "sha256": "5564e2ab91a33b92c00a368a596a4b606b264b27105a81da9d98098502e9244d"
+    },
+    "IHSG": {
+      "symbol": "^JKSE",
+      "rows": 2849,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "b50fcb73ece093568cb987a0925c5d76e0752cd646877551889933067db72304"
+    },
+    "LQ45": {
+      "symbol": "^JKLQ45",
+      "rows": 2849,
+      "first": "2015-01-02",
+      "last": "2026-10-16",
+      "sha256": "7f5be29dfee8a8ac6f12bc28c93d06ffa19138c6dc29a93baaf9c53d92336140"
+    }
+  }
+}
