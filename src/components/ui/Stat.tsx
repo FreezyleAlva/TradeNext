@@ -24,7 +24,7 @@ export function Stat({
   return (
     <div className="flex min-w-0 flex-col gap-s1 rounded-md bg-surface-2 p-s3">
       <div className="text-xs text-ink-3">{label}</div>
-      <div className={`font-mono tabular-nums ${size === "lg" ? "text-xl" : "text-base"} ${toneCls[tone]}`}>{value}</div>
+      <div className={`font-medium tabular-nums ${size === "lg" ? "text-xl" : "text-base"} ${toneCls[tone]}`}>{value}</div>
       {sub ? <div className="text-xs text-ink-3">{sub}</div> : null}
     </div>
   );

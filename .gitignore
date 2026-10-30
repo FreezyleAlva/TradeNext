@@ -41,3 +41,12 @@ src/app/icon.png
 src/app/apple-icon.png
 public/data/
 public/favicon.ico
+public/bg/
+public/fonts/
+
+# python
+__pycache__/
+*.pyc
+
+# snapshot unduhan ulang, bisa dibuat lagi: python -m backtest download
+data/snapshots/

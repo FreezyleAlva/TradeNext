@@ -16,12 +16,19 @@ for (const f of pngs) copyFileSync(join(srcIcons, f), join(outIcons, f));
 copyFileSync(join(web, "brand", "alvastudio-512.png"), join(web, "src", "app", "icon.png"));
 copyFileSync(join(web, "brand", "alvastudio-180.png"), join(web, "src", "app", "apple-icon.png"));
 copyFileSync(join(web, "brand", "favicon.ico"), join(web, "public", "favicon.ico"));
+for (const dir of ["bg", "fonts"]) {
+  const out = join(web, "public", dir);
+  rmSync(out, { recursive: true, force: true });
+  mkdirSync(out, { recursive: true });
+  for (const f of readdirSync(join(root, "assets", dir))) copyFileSync(join(root, "assets", dir, f), join(out, f));
+}
 
 const tokens = JSON.parse(readFileSync(join(root, "design", "tokens.json"), "utf8"));
 const lines = [];
 const add = (name, value) => lines.push(`  --${name}: ${value};`);
 for (const [k, v] of Object.entries(tokens.surface)) add(`color-surface-${k}`, v);
 for (const [k, v] of Object.entries(tokens.ink)) add(`color-ink-${k}`, v);
+for (const [k, v] of Object.entries(tokens.glass)) add(`color-glass-${k}`, v);
 for (const [k, v] of Object.entries(tokens.blue)) add(`color-blue-${k}`, v);
 for (const [k, v] of Object.entries(tokens.cyan)) add(`color-cyan-${k}`, v);
 for (const [k, v] of Object.entries(tokens.state)) add(`color-${k}`, v);

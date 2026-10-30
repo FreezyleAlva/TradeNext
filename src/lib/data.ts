@@ -3,6 +3,7 @@ import "server-only";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { Identity, Results } from "@/types/results";
+import type { Revision } from "@/types/revision";
 
 const ROOT = process.cwd();
 
@@ -14,6 +15,14 @@ export function loadResults(): Results {
   const r = readJson<Results>("data", "results.json");
   if (r.schema !== "freezyle-traiding/1") {
     throw new Error(`Skema results.json tidak dikenal: ${String(r.schema)}`);
+  }
+  return r;
+}
+
+export function loadRevision(): Revision {
+  const r = readJson<Revision>("data", "revision.json");
+  if (r.schema !== "freezyle-traiding-revision/1") {
+    throw new Error("data/revision.json tidak ada atau skemanya salah. Jalankan: python -m backtest revision");
   }
   return r;
 }

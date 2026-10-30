@@ -28,7 +28,7 @@ const swatchCls: Record<SeriesColor, string> = {
   warning: "bg-warning",
 };
 
-const PAD_L = 64;
+const PAD_L = 78;
 const PAD_R = 12;
 
 export function TimeChart({

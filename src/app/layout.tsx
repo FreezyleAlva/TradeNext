@@ -16,7 +16,10 @@ export function generateViewport(): Viewport {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="id">
-      <body>{children}</body>
+      <body>
+        <div className="backdrop" aria-hidden="true" />
+        {children}
+      </body>
     </html>
   );
 }

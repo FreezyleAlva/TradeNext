@@ -40,7 +40,7 @@ export function Td({
 }) {
   const color = muted ? "text-ink-3" : toneCls[tone];
   return (
-    <td className={`px-s3 py-s2 ${num ? "text-right font-mono tabular-nums whitespace-nowrap" : "text-left"} ${color}`}>
+    <td className={`px-s3 py-s2 ${num ? "text-right tabular-nums whitespace-nowrap" : "text-left"} ${color}`}>
       {children}
     </td>
   );

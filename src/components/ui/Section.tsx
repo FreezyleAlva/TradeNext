@@ -46,7 +46,7 @@ export function Panel({
   className?: string;
 }) {
   return (
-    <div className={`flex min-w-0 flex-col gap-s3 rounded-lg bg-surface-1 p-s4 ${className}`}>
+    <div className={`panel flex min-w-0 flex-col gap-s3 rounded-lg p-s4 ${className}`}>
       {title || aside ? (
         <div className="flex flex-wrap items-baseline justify-between gap-s2">
           {title ? (
